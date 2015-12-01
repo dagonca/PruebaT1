@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="701.0" styleClass="fondo" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.pantalla1Controller">
+   <children>
+      <BorderPane prefHeight="508.0" prefWidth="700.0" AnchorPane.bottomAnchor="-8.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <bottom>
+            <AnchorPane prefHeight="40.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutY="-25.0" prefHeight="93.0" prefWidth="700.0" style="-fx-background-color: #F78181;" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-25.0" />
+               </children>
+            </AnchorPane>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="111.0" prefWidth="700.0" styleClass="fondoarriba" stylesheets="@application.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="83.0" fitWidth="78.0" layoutX="14.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="608.0" AnchorPane.topAnchor="49.0">
+                     <image>
+                        <Image url="@../../images/github_white.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="232.0" layoutY="40.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="236.0" style="-fx-background-color: #F78181; -fx-border-color: white;" text="View in GitHub" textFill="WHITE" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="232.0" AnchorPane.rightAnchor="232.0" AnchorPane.topAnchor="40.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <AnchorPane prefHeight="447.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label contentDisplay="CENTER" layoutX="310.0" layoutY="34.0" prefHeight="49.0" prefWidth="111.0" text="My Profile" textFill="#f78181" wrapText="true" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="280.0" AnchorPane.topAnchor="34.0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="290.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="157.0" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="260.24623107910156" AnchorPane.topAnchor="92.0">
+                     <image>
+                        <Image url="@../../images/profilephoto.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="291.0" layoutY="257.0" prefHeight="40.0" prefWidth="150.0" text="Daniel González" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="291.0" AnchorPane.rightAnchor="260.0" AnchorPane.topAnchor="257.0">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label contentDisplay="CENTER" layoutX="315.0" layoutY="289.0" prefHeight="40.0" prefWidth="101.0" text="iOs Developer" textAlignment="JUSTIFY" textFill="#a8a5a5" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="315.0" AnchorPane.rightAnchor="285.0" AnchorPane.topAnchor="289.0">
+                     <font>
+                        <Font name="System Italic" size="15.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="62.0" fitWidth="71.0" layoutX="622.0" layoutY="337.0" onMouseClicked="#cambio" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="622.0" AnchorPane.rightAnchor="15.882881164550781" AnchorPane.topAnchor="337.0">
+                     <image>
+                        <Image url="@../../images/send.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
